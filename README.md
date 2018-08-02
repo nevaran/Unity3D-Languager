@@ -22,6 +22,7 @@ This one is a straight up letter swap, that also supports uppercase and lowercas
   It should be the better one in terms of performance but might introduce very large words if not careful with the dictionary.
 
 #####################################
+
 There is also a clean template dictionary commented on the start of the code to make it easier for your own language conversion.
 
 #####################################
