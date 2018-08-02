@@ -135,14 +135,14 @@ public static class Languager{
         ,{ '9', "Novem" }
     };
 
-    public static string ToEnochian(string cyrillic)
+    public static string ToEnochian(string rawText)
     {
         StringBuilder result = new StringBuilder();
 
         char lastChar = ' ';
-        for(int i = 0; i < cyrillic.Length; i++)
+        for(int i = 0; i < rawText.Length; i++)
         {
-            char c = cyrillic[i];
+            char c = rawText[i];
             try
             {
                 string exitString;
@@ -193,13 +193,13 @@ public static class Languager{
         return "<color=#C9C3A1>[Enchonian]</color> " + result.ToString();
     }
 
-    public static string ToCommon(string cyrillic)
+    public static string ToCommon(string rawText)
     {
         StringBuilder result = new StringBuilder();
 
-        for (int i = 0; i < cyrillic.Length; i++)
+        for (int i = 0; i < rawText.Length; i++)
         {
-            char c = cyrillic[i];
+            char c = rawText[i];
             try
             {
                 if (char.IsUpper(c))
