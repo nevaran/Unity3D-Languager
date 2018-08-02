@@ -3,6 +3,7 @@ A C# script for Unity that takes a string and changes it based on a dictionary a
 
 
 #####################################
+
 To use the script, simply call it using "Languager.ToCommon(text)" or "<>.ToEnochian(text)" from any script, and it will return
 the converted string.
 
