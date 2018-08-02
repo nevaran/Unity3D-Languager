@@ -8,6 +8,7 @@ To use the script, simply call it using "Languager.ToCommon(text)" or "<>.ToEnoc
 the converted string.
 
 #####################################
+
 The script includes two different "languages":
 
 One being a modified version of Enochian(so called Angel language), which is more or less a fictional one, with some 
