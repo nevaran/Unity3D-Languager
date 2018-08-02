@@ -15,7 +15,7 @@ In this one, I have added a somewhat extention to somewhat reduce the size of wo
   The code will check if the last character is the same with the current one, and if it is, it will only take the last letter
   of the translated character from the dictionary(if the dictionary is just one letter translated, it will use the same one).
   
-      Example: <b>W = Re</b>, then <b>www</b> will return <b>ree</b>
+      Example: W = Re, then www will return ree
 
 The second one I named Common, but its actually a modified R'lyehian, another fictional language.
 This one is a straight up letter swap, that also supports uppercase and lowercase letters.
